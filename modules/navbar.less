@@ -1,0 +1,18 @@
+@nav-theme: #0f2b3c;
+@nav-theme-dark: darken(@nav-theme, 15%);
+
+.border(@radius: 0) {
+    border: 1px solid @nav-theme-dark;
+    border-radius: @radius;
+}
+
+.navbar2 {
+
+    & li {
+        .border();    
+        & a {
+            background-color: @nav-theme;
+            color: #fff;
+        }
+    }
+}

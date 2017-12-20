@@ -1,0 +1,85 @@
+/** 
+* Anax Flat theme.
+*/
+/*@import url(modules.less);*/
+@import url(base.less);
+
+@light_gray: #EDEDED;
+@dark_grey: #BDBDBC;
+
+@opacity-back: rgba(0, 0, 0, 0.5);
+
+html {
+    background: url(../img/backgr1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.inner-wrap {
+    max-width: 100%;
+    width: 100%;
+}
+
+.main, {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.after-main {
+    background: rgba(122, 39, 39, 0.7);
+    color: white;
+}
+
+.flash-wrap {
+    display: none;
+}
+
+.sidebar { 
+    background: @opacity-back;
+    color: white;
+    a {
+        color: white;
+    }
+}
+
+.inner-wrap-breadcrumb {
+    background: rgba(122, 39, 39, 0.7);
+    color: white;
+    a {
+        color: white;
+    }
+}
+
+.outer-wrap-header {
+    background: @opacity-back;
+    color: white;
+    a {
+        color: white;
+    }
+}
+
+.outer-wrap-footer {
+    background: @opacity-back;
+    color: white;
+    a {
+        color: white;
+    }
+}
+
+.block.site-footer {
+    background-color: @dark_grey;
+    background: url(../img/backgr1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+
+    a {
+        color: white;
+    }
+}
